@@ -16,7 +16,7 @@ main {
   width: 21vw;
   display: block;
   margin: auto;
-  padding: 10px;
+  padding: 10px 10px;
   border-radius: 15px;
 }
 p {
@@ -32,8 +32,8 @@ h1 {
 .star {
   display: flex;
   background: hsl(213, 19%, 25%);
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
@@ -52,17 +52,40 @@ p.circle:hover {
 }
 button {
   background-color: hsl(25, 97%, 53%);
-  border-radius: 10px;
+  border-radius: 15px;
   margin: auto;
   display: block;
   width: 100%;
-  height: 30px;
+  height: 40px;
   cursor: pointer;
 }
 button:hover {
   background-color: hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
 }
-.main_container > div {
+.main_content {
   margin: 20px 10px;
+}
+
+.active {
+  background: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px 8px;
+}
+
+.result p {
+  color: hsl(25, 97%, 53%);
+  font-size: 15px;
+}
+
+#thanks_section {
+  min-height: 100vh;
+  display: none;
 }
